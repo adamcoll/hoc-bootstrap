@@ -6,3 +6,6 @@
 	background-color: rgba(86,61,124,.15);
 	border: 1px solid rgba(86,61,124,.2);
 }
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
