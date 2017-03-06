@@ -17,18 +17,259 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
+	<!-- LANDING PAGE -->
+	<div id="header">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" class="navbar-brand">Tcoll.epizy.com</a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="">Giới thiệu</a></li>
+						<a href="" class="btn btn-success navbar-btn">Đăng ký</a>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div><!-- #header -->
+
+	<div id="content">
+		<div id="calltoaction">
+			<div class="jumbotron">
+				<h1>Khóa học bootstrap</h1>
+				<p>Hướng dẫn thiết kế website sử dụng Bootstrap Framework</p>
+				<a href="" class="btn btn-lg btn-success">Đăng Ký</a>
+				<a href="" class="btn btn-lg btn-feature">Giới thiệu</a>
+			</div>
+		</div><!-- .calltoaction -->
+	</div><!-- #content -->
+
+	<div id="footer">
+
+	</div><!-- #footer -->
+
+
+
+	<hr class="style2">
+	<div class="container">
+		<div class="row">
+			<h2>Tcoll.epizy.com <small>Tabs</small></h2>
+			<ul class="nav nav-tabs">
+				<li><a href="#home" data-toggle="tab">Home</a></li>
+				<li class="active"><a href="#accoụnt" data-toggle="tab">Accout</a></li>
+				<li><a href="#settings" data-toggle="tab">Setting</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade" id="home">HOME</div>
+				<div class="tab-pane active in fade" id="accoụnt">ACCOUNT</div>
+				<div class="tab-pane fade" id="settings">SETTINGS</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<hr class="style2">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				<a class="btn btn-primary" title="Tcoll.epizy.com" data-toggle="popovers" data-placement="right" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod impedit necessitatibus iure, eius iste ipsam asperiores, numquam quibusdam nobis fuga soluta, dolorum magni. Quaerat omnis debitis animi incidunt nisi illum.">Tcoll </a>
+				<a title="Tcoll.epizy.com" data-toggle="popovers" data-placement="bottom">Tcoll-2</a>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(function(){
+			$('[data-toggle="popovers"]').popover({
+				placement: "auto",
+				trigger: "hover" ,//click
+				delay: 500,
+			});
+		});
+	</script>
+
+
+
+
+
+	<hr class="style2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<a title="Tcoll.epizy.com" data-toggle="tooltip" data-placement="right">Tcoll </a>
+				<a title="Tcoll.epizy.com" data-toggle="tooltip" data-placement="bottom">Tcoll-2</a>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(function(){
+			$('[data-toggle="tooltip"]').tooltip({
+				placement: "bottom",
+				trigger: "click" ,//focus(giống như tab)
+				delay: 500,
+			});
+		});
+	</script>
+
+
+
+
+
+	<hr class="style2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Tcoll.epizy.com <small>Dropdown</small></h2>
+				<nav class="navbar navbar-inverse">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu2">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="" class="navbar-brand">Tcoll.epizy.com</a>
+					</div>
+					<div class="navbar-collapse" id="main-menu2">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="">Home</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Contact</a></li>
+							<li class="dropdown">
+								<a href="" data-toggle="dropdown">My account <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="">Profile</a></li>
+									<li><a href="">Change Password</a></li>
+									<li class="divider"></li>
+									<li><a href="">Logout</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="dropdown">
+					<a href="" data-toggle="dropdown">My account <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="">Profile</a></li>
+						<li><a href="">Change Password</a></li>
+						<li class="divider"></li>
+						<li><a href="">Logout</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<hr class="style2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Tcoll.epizy.com</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio consequuntur, eum amet? Eius et voluptate quas iusto alias voluptatem aliquam in? Eos dolore cupiditate exercitationem fugiat, suscipit commodi earum rem?</p>
+
+				<!-- Button trigger Modal -->
+				<button id="btn-click" class="btn btn-primary btn-lg" data-toggle="modal" data-show="true" data-target="#myModal">Show modal</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="MymodalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h1 class="modal-title">Tcoll.epizy.com</h1>
+							</div>
+							<div class="modal-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam possimus assumenda explicabo consequatur corporis maiores velit ullam doloremque saepe excepturi hic architecto ipsa fuga a, aspernatur, vitae laborum recusandae adipisci!
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-default" data-dismiss="modal">CLose</button>
+								<button class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<hr class="style2">
+	<div id="header">
+		<div class="container">
+			<nav class="navbar navbar-inverse">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" class="navbar-brand">Tcoll.epizy.com</a>
+				</div>
+				<div class="navbar-collapse" id="main-menu">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus maiores, dolorum qui accusamus omnis sed beatae consequatur. Eum expedita consequatur delectus dolor consectetur, amet quos illum, reiciendis magnam aspernatur ratione.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus maiores, dolorum qui accusamus omnis sed beatae consequatur. Eum expedita consequatur delectus dolor consectetur, amet quos illum, reiciendis magnam aspernatur ratione.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus maiores, dolorum qui accusamus omnis sed beatae consequatur. Eum expedita consequatur delectus dolor consectetur, amet quos illum, reiciendis magnam aspernatur ratione.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<hr class="style2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
 				<!-- Nav -->
-				<ul>
+				<ul class="nav nav-tabs nav-pills nav-stacked">
 					<li><a href="">Menu 1</a></li>
-					<li><a href="">Menu 2</a></li>
+					<li class="active"><a href="">Menu 2</a></li>
 					<li><a href="">Menu 3</a></li>
 				</ul>
 				<!-- End Nav-->
+			</div>
+			<div class="col-md-9 well">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam cupiditate fugit facere aut soluta minima praesentium laudantium officiis modi, iste natus quas illum, quia quo ea similique repudiandae ab nam.
 			</div>
 		</div>
 	</div>
@@ -344,18 +585,5 @@
 		</div>
 	</div>
 	<!-- .container -->
-
-
-
-
-
-	<!-- jQuery (necessary for Bootstrap"s JavaScript plugins)
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    -->
-	<script src="js/jquery-3.1.1.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
