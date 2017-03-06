@@ -6,6 +6,14 @@
 	background-color: rgba(86,61,124,.15);
 	border: 1px solid rgba(86,61,124,.2);
 }
+
 hr.style2 {
-	border-top: 3px double #8c8b8b;
+    border-top: 3px double #8c8b8b;
+}
+
+.glyphicon {
+	text-align: center;
+	font-size: 50px;
+	color: darkred;
+	padding-top: 20px;
 }
