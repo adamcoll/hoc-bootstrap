@@ -36,9 +36,84 @@ hr.style2 {
 	text-align: center;
 	background: #2a4a50 url('../image/bg.jpg') center no-repeat;
 	background-size: cover;
+	margin-bottom: 0 !important;
 }
 
-#calltoaction .jumbotron h1 p{
+#calltoaction .jumbotron h1,
+#calltoaction .jumbotron p{
 	color: white;
 	text-shadow: 0px 3px 0px 0px rgba(0,0,0,0.33);
+}
+
+#calltoaction .jumbotron .btn-feature{
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+#calltoaction .jumbotron .btn-feature:hover{
+	color: #a1a1a1;
+}
+
+
+/*----- #feature1 -----*/
+
+#feature1 {
+	background: #ecf8f1;
+	color: #2c3e58;
+	text-align: center;
+	padding: 30px 0;
+}
+
+#feature1 .glyphicon{
+	font-size: 50px;
+	padding: 0;
+}
+
+
+/*----- #feature2 -----*/
+
+#feature2 {
+	background: #34495e;
+	color:white;
+	text-align: center;
+}
+
+#feature2 p{
+	color: #80c3cf;
+}
+
+
+/*----- #feature3 -----*/
+
+#feature3 .row{
+	padding: 20px 0;
+}
+
+
+/*----- #feature4 -----*/
+
+#feature4 {
+	background: #ecf0f1;
+
+}
+
+
+/*----- #footer -----*/
+
+#footer {
+	background: #34495e;
+}
+
+#footer a{
+	color: white;
+	text-transform:uppercase;
+}
+
+
+#feature1,
+#feature2,
+#feature3,
+#feature4,
+#footer{
+	padding: 30px 0;
 }
