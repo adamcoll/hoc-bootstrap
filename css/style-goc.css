@@ -13,41 +13,33 @@ hr.style2 {
 
 .glyphicon {
 	text-align: center;
-	font-size: 130px;
-	color: #29893f;
+	font-size: 120px;
+	color: darkred;
 	padding-top: 50px;
 }
 
 
 /*----- Navbar -----*/
-/* #463D29 #5A4D35 #896E3E #D6C06C #F3E892*/
+
 #header nav{
-	background: #463D29;
+	background: #ffffff;
 	padding: 10px 0;
 	text-transform: uppercase;
 	text-align: center;
 	box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.33);
 }
 
-.navbar-brand{
-	color: #fff !important;
-}
-
 .navbar-header button{
 	float:left;
-	color: white;
 }
-
 /*----- Content ------*/
 
 #calltoaction .jumbotron {
-	padding: 100px 0;
+	padding: 150px 0;
 	text-align: center;
-	background: #463D29 url('../image/bg-caphe.jpg') left no-repeat;
+	background: #2a4a50 url('../image/bg.jpg') center no-repeat;
 	background-size: cover;
 	margin-bottom: 0 !important;
-
-
 }
 
 #calltoaction .jumbotron h1,
@@ -111,11 +103,11 @@ hr.style2 {
 
 /*----- #footer -----*/
 
-#footer {
+#footer2 {
 	background: #34495e;
 }
 
-#footer a{
+#footer2 a{
 	color: white;
 	text-transform:uppercase;
 }
@@ -125,6 +117,6 @@ hr.style2 {
 #feature2,
 #feature3,
 #feature4,
-#footer{
+#footer2{
 	padding: 30px 0;
 }
