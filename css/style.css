@@ -2,12 +2,12 @@
 	font-family: sans-serif;
 }
 .show-grid [class^='col-'] {
-	padding-top: 10px;
-	padding-bottom: 10px;
 	background-color: #eee;
-	border: 1px solid #ddd;
 	background-color: rgba(86,61,124,.15);
+	border: 1px solid #ddd;
 	border: 1px solid rgba(86,61,124,.2);
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 hr.style2 {
@@ -15,10 +15,10 @@ hr.style2 {
 }
 
 .glyphicon {
-	text-align: center;
-	font-size: 130px;
 	color: #896E3E;
+	font-size: 130px;
 	padding-top: 50px;
+	text-align: center;
 }
 
 
@@ -26,36 +26,41 @@ hr.style2 {
 /* #463D29 #5A4D35 #896E3E #D6C06C #F3E892*/
 #header nav{
 	background: #463D29;
-	padding: 10px 0;
-	text-transform: uppercase;
-	text-align: center;
 	box-shadow: 0px 5px 2px 0px rgba(181,170,102,0.7);
+	padding: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .navbar-brand{
-	color: #fff !important;
+	color: #fff;
 	font-weight: bold;
 }
 
 .navbar-header button{
+	color: #c1c1c1;
 	float:left;
-	color: white;
 }
 
 .btn-success{
-	background: #463D29 !important;
-	border-color: #F3E892 !important;
-	color: #f1f1f1 !important;
+	background: #463D29 ;
+	border-color: #F3E892 ;
+	color: #f1f1f1 ;
 }
 
 .btn-success:hover{
-	background: #3a2b1c !important;
-	border-color: #815231 !important;
-	color:#fff !important;
+	background: #3a2b1c ;
+	border-color: #815231 ;
+	color:#fff ;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #d1d1d1 !important;
+    border-color: #d1d1d1 ;
+}
+
+
+.navbar-nav li:hover{
+	border-bottom: 1px solid white;
 }
 
 /*----- Content ------*/
@@ -162,6 +167,6 @@ hr.style2 {
 #feature2,
 #feature3,
 #feature4,
-#footer{
-	padding: 30px 0;
+#footer {
+  padding: 30px 0;
 }
